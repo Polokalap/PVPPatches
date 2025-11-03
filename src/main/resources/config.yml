@@ -1,0 +1,18 @@
+console:
+  startup: "hellooo :3"
+  shutdown: "baii"
+
+player:
+  permission: "&4You do not have permission to run that command"
+  args: "&4Missing arguments!"
+  reloaded: "&aConfig reloaded!"
+
+settings:
+  enderpearl:
+    enabled: true
+    hitbox_expansion: 1.5d
+  shield:
+    enabled: true
+    volume: "75%"
+  offhand_swing_animation_patch:
+    enabled: true

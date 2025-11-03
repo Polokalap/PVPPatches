@@ -1,0 +1,11 @@
+name: PVPPatches
+version: '1.0'
+main: mel.Polokalap.PVPPatches.Main
+api-version: '1.21'
+load: POSTWORLD
+prefix: :3
+authors: [ Polokalap ]
+description: Buy me a cookie!
+website: autizm.us/m, ko-fi.com/Polokalap
+commands:
+  pvppatches:
