@@ -55,6 +55,7 @@ public final class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new HitListener(), this);
         getServer().getPluginManager().registerEvents(new ShieldListener(), this);
         getServer().getPluginManager().registerEvents(new PearlListener(), this);
+        getServer().getPluginManager().registerEvents(new DrainListener(), this);
 
     }
 

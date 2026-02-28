@@ -16,3 +16,5 @@ settings:
     volume: "75%"
   offhand_swing_animation_patch:
     enabled: true
+  drain:
+    enabled: true

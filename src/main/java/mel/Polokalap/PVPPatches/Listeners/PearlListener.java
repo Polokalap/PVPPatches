@@ -2,7 +2,6 @@ package mel.Polokalap.PVPPatches.Listeners;
 
 import mel.Polokalap.PVPPatches.Main;
 import org.bukkit.Bukkit;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.EnderPearl;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -86,7 +85,7 @@ public class PearlListener implements Listener {
                         double radius = plugin.getConfig().getDouble("settings.enderpearl.hitbox_expansion");
                         for (Entity nearby : pearl.getNearbyEntities(radius, radius, radius)) {
 
-                            if (nearby.getType() == EntityType.WIND_CHARGE) {
+                            if (nearby.getType() == EntityType.WIND_CHARGE || nearby.getType() == EntityType.PLAYER) {
 
                                 pearl.wouldCollideUsing(nearby.getBoundingBox());
 
